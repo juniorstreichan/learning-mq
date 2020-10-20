@@ -8,7 +8,7 @@ import test.amqp.producer.service.SalesService
 import java.util.*
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("rabbit/orders")
 class OrderController(
         val salesService: SalesService
 ) {
